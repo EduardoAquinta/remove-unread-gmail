@@ -4,8 +4,8 @@
   "description": "remove unwanted unread emails",
   "main": "remove-unread-gmail.js",
   "scripts": {
-    "test": "jest --collectCoverageFrom=\"gmailService.js\" --collectCoverageFrom=\"remove-unread-gmail.js\" --collectCoverageFrom=\"index.js\"",
-    "start": "node index.js"
+    "test": "jest --collectCoverageFrom=\"src/gmailService.js\" --collectCoverageFrom=\"src/remove-unread-gmail.js\" --collectCoverageFrom=\"src/index.js\"",
+    "start": "node src/index.js"
   },
   "author": "eduardoaquinta",
   "license": "ISC",
