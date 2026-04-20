@@ -1,0 +1,20 @@
+{
+  "name": "remove-gmail",
+  "version": "1.0.0",
+  "description": "remove unwanted unread emails",
+  "main": "remove-unread-gmail.js",
+  "scripts": {
+    "test": "jest --collectCoverageFrom=\"gmailService.js\" --collectCoverageFrom=\"remove-unread-gmail.js\" --collectCoverageFrom=\"index.js\"",
+    "start": "node index.js"
+  },
+  "author": "eduardoaquinta",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "jest": "^29.7.0"
+  },
+  "devDependencies": {
+    "googleapis": "^152.0.0",
+    "supertest": "^7.2.2"
+  }
+}
